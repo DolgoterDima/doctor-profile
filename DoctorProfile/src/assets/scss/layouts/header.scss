@@ -1,0 +1,19 @@
+.header {
+  text-align: center;
+  background: linear-gradient(
+    180deg,
+    rgba(7, 86, 126, 1) 0%,
+    rgba(7, 86, 126, 1) 31%,
+    rgba(32, 99, 133, 1) 50%,
+    rgba(7, 86, 126, 1) 71%,
+    rgba(7, 86, 126, 1) 100%
+  );
+  padding: 20px 15px;
+  &__title {
+    text-transform: uppercase;
+    color: $white;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+  }
+}

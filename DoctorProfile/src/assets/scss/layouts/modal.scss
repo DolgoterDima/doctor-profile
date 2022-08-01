@@ -1,0 +1,44 @@
+.modal {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &__backdrop {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.5);
+    z-index: -1;
+  }
+
+  &__close {
+background-color: transparent;
+    position: absolute;
+    top:10px;
+    right: 10px;
+    border: none;
+    color: $black;
+    transition: color .3s linear;
+    cursor: pointer;
+    &:hover{
+      color:$text-blue
+    }
+  }
+
+  &__icon {
+    &--close {
+    }
+  }
+
+  &__content {
+    position: relative;
+    background: linear-gradient(180deg, rgba(250,252,254,1) 0%, rgba(218,232,252,1) 100%);
+padding: 50px 20px  0px;
+  }
+}

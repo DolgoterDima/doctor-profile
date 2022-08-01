@@ -1,0 +1,62 @@
+.profile {
+  &__header {
+
+  }
+
+  &__main {
+    padding: 20px 15%;
+    background-color: $light-blue;
+  }
+  &__review{
+    margin-bottom: 20px;
+  }
+  &__row {
+    &--heading {
+      display: flex;
+      margin-bottom: 10px;
+      align-items: center;
+    }
+
+    &--content {
+      display: flex;
+
+      border: 1px solid $light-gray;
+      padding: 10px;
+    }
+
+    &--footer {
+      text-align: center;
+      padding: 30px;
+    }
+
+    &--comments {
+    }
+  }
+
+  &__name {
+    font-size: 18px;
+    color: $biege;
+    font-family: Arial, sans-serif;
+    text-transform: uppercase;
+  }
+
+  &__stars {
+    color: $yellow;
+    margin: 0 10px;
+  }
+
+  &__star {
+  }
+
+  &__rating {
+    font-size: 12px;
+  }
+
+  &__avatar {
+    object-fit: cover;
+    object-position: top;
+  }
+
+  &__info {
+  }
+}

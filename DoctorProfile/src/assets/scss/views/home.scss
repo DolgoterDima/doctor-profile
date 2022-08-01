@@ -1,0 +1,29 @@
+.home {
+  display: flex;
+  align-items: center;justify-content: center;
+  flex-direction: column;
+  &__nav {
+  }
+&__text{
+  margin-top: 10vh;
+  display: block;
+  text-align: center;
+  font-size: 30px;
+}
+  &__link {
+    display: inline-block;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: $light-gray;
+    padding: 10px;
+    color: $black;
+    transition: color .3s linear;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Arial, sans-serif;
+    &:hover{
+      color: $biege;
+
+    }
+  }
+}

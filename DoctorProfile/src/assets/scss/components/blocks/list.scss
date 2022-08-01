@@ -1,0 +1,28 @@
+.list {
+  &--info {
+  }
+
+  &__item {
+    display: flex;
+    margin-bottom: 5px;
+  }
+
+  &__key {
+    padding-right: 20px;
+    font-weight: bold;
+    min-width: 150px;
+  }
+
+  &__value {
+    width: 50%;
+  }
+
+  &__link {
+    color: $blue;
+    text-decoration: none;
+    transition: color 0.3s linear;
+    &:hover {
+      color: $biege;
+    }
+  }
+}
